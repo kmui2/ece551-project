@@ -10,95 +10,119 @@ cModel Technology
 dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
 vcnt4
 Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
-Z1 !s110 1507735789
+Z1 !s110 1507737539
 !i10b 1
 !s100 OdfeZ8k]1PfeQVJDjb5?h2
-Io65eXY=jaT_LW=m0NPQYC1
+I70:HJMS5KB75NnT]SPP272
 Z2 V`JN@9S9cnhjKRR_L]QIcM3
 !s105 cnt4_sv_unit
 S1
-Z3 dI:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011
-w1507563977
-8I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/cnt4.sv
-FI:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/cnt4.sv
+Z3 dI:/ECE551/ece551-project
+Z4 w1507737198
+8I:/ECE551/ece551-project/cnt4.sv
+FI:/ECE551/ece551-project/cnt4.sv
 L0 1
-Z4 OE;L;10.3c;59
+Z5 OE;L;10.3c;59
 r1
 !s85 0
 31
-!s108 1507735789.124000
-!s107 I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/cnt4.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/cnt4.sv|
+!s108 1507737539.245000
+!s107 I:/ECE551/ece551-project/cnt4.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/ece551-project/cnt4.sv|
 !i113 0
-Z5 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vESC_interface
+R0
+R1
+!i10b 1
+!s100 YM9LoXZfQFA2Nn`kKmMRF1
+I8jzoTz:AljSGGMejfdlRX3
+R2
+!s105 ESC_interface_sv_unit
+S1
+R3
+w1507737511
+8I:/ECE551/ece551-project/ESC_interface.sv
+FI:/ECE551/ece551-project/ESC_interface.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1507737539.575000
+!s107 I:/ECE551/ece551-project/ESC_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/ece551-project/ESC_interface.sv|
+!i113 0
+R6
+n@e@s@c_interface
 vESC_test
 R0
 R1
 !i10b 1
 !s100 Q=lbEQWXJl@_:PKR7I5W10
-I@kE?RU`7O3183z2gzH5BV3
+INYBcOnQzTdeR8@BIiA2N>0
 R2
 !s105 ESC_test_sv_unit
 S1
 R3
-w1507564593
-8I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/ESC_test.sv
-FI:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/ESC_test.sv
-L0 1
 R4
+8I:/ECE551/ece551-project/ESC_test.sv
+FI:/ECE551/ece551-project/ESC_test.sv
+L0 1
+R5
 r1
 !s85 0
 31
-!s108 1507735789.434000
-!s107 I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/ESC_test.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/ESC_test.sv|
+!s108 1507737539.895000
+!s107 I:/ECE551/ece551-project/ESC_test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/ece551-project/ESC_test.sv|
 !i113 0
-R5
+R6
 n@e@s@c_test
 vPB_release
 R0
-R1
+!s110 1507737540
 !i10b 1
 !s100 S9?C2]DDGO^IRa`90IHAo2
-Im72KziXLNFY:eG[fad:jf3
+IFnc0hOo1X``cn?IXnAQBP2
 R2
 !s105 PB_release_sv_unit
 S1
 R3
-w1507735787
-8I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/PB_release.sv
-FI:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/PB_release.sv
-L0 1
 R4
+8I:/ECE551/ece551-project/PB_release.sv
+FI:/ECE551/ece551-project/PB_release.sv
+L0 1
+R5
 r1
 !s85 0
 31
-!s108 1507735789.754000
-!s107 I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/PB_release.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/PB_release.sv|
+!s108 1507737540.235000
+!s107 I:/ECE551/ece551-project/PB_release.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/ece551-project/PB_release.sv|
 !i113 0
-R5
+R6
 n@p@b_release
 vrst_synch
 R0
-!s110 1507735790
+R1
 !i10b 1
-!s100 TBm@0QPNEFC7iWh0g9n9N1
-IzfbEPNlbBVm^[E@aP8>kS2
+!s100 ;SMko47Q^==MZ@TG?;<nf3
+I62ag[a>M9AW:H99AK@6]I0
 R2
 !s105 rst_synch_sv_unit
 S1
 R3
-w1507562529
-8I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/rst_synch.sv
-FI:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/rst_synch.sv
+w1507737476
+8I:/ECE551/ece551-project/rst_synch.sv
+FI:/ECE551/ece551-project/rst_synch.sv
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-!s108 1507735790.068000
-!s107 I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/rst_synch.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/rst_synch.sv|
+!s108 1507737538.925000
+!s107 I:/ECE551/ece551-project/rst_synch.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/ece551-project/rst_synch.sv|
 !i113 0
-R5
+R6

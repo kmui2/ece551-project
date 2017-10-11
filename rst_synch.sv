@@ -9,7 +9,7 @@ logic FF1;
 always_ff @(negedge clk) begin
 	if (!RST_n) begin
 		FF1 <= 1'b0;
-		rst_n <= FF1;
+		rst_n <= 0;
 	end
 	else begin
 		FF1 <= 1'b1;
