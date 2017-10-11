@@ -1,0 +1,26 @@
+module PB_release(PB, clk, rst_n, released);
+
+input PB, rst_n, clk;
+
+output logic released;
+
+logic FF1, FF2, FF3;
+
+assign released = FF2 & !FF3;
+
+always @(posedge clk, negedge rst_n) begin
+	if (!rst_n) begin
+		FF1 <= 1'b0;
+		FF2 <= 1'b0;
+		FF3 <= 1'b0;
+	end
+	else begin
+		FF1 <= PB;
+		FF2 <= FF1;
+		FF3 <= FF2;
+	end
+	
+
+end
+
+endmodule 

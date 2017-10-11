@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Oct 11 10:34:17 2017
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : ESC_test
+Top-level Entity Name : ESC_test
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 65 / 22,320 ( < 1 % )
+    Total combinational functions : 60 / 22,320 ( < 1 % )
+    Dedicated logic registers : 34 / 22,320 ( < 1 % )
+Total registers : 34
+Total pins : 26 / 154 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

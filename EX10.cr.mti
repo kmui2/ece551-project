@@ -1,0 +1,22 @@
+{I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/ESC_test.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/ESC_test.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ESC_test
+
+Top level modules:
+	ESC_test
+
+} {} {}} {I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/rst_synch.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/rst_synch.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module rst_synch
+
+Top level modules:
+	rst_synch
+
+} {} {}} {I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/cnt4.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE551/Exercise10 (Mapping ESC_test to DE0-Nano)-20171011/cnt4.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cnt4
+
+Top level modules:
+	cnt4
+
+} {} {}}
