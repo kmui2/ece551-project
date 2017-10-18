@@ -12,11 +12,14 @@ wire Rst, Set;
 
 logic[19:0] cnt;
 
+// determine Rst (reset) and Set for PWM motor speed signal
+// Set is asserted when count becomes max (all ones) else Rst
 assign compensated_speed = SPEED + OFF;
 assign setting =  16'd50000 + (compensated_speed << 4);
 assign Rst = cnt[16:0] >= setting;
 assign Set = &cnt;
 
+// keep counting (incrementing cnt) for each clk cycle
 always_ff @(posedge clk, negedge rst_n) begin
 	if (!rst_n)
 		cnt <= 0;
@@ -24,6 +27,7 @@ always_ff @(posedge clk, negedge rst_n) begin
 		cnt <= cnt + 1;
 end
 
+// set and reset PWM based on conditions set above
 always_ff @(posedge clk, negedge rst_n) begin
 	if (!rst_n)
 		PWM <= 1'b0;
